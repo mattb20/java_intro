@@ -36,7 +36,9 @@ More to the point - what is Java and how does it work?
 ### To complete this challenge, you will need to research and write down your findings about:
 
 - [ ] The differences between a compiled and interpreted language
-- [ ] The differences between a dynamically and statically typed language
+Programs written in compiled languages are all compiled to machine language and then ran, where as interpreted languages are read line by line by the computer in a language that understands the machine code of the target machine. Compiled languages offer a possible advantage of faster performance as they are expressed directly in the machine language of the target machine, with the opportunity to offer powerful optimisations during the compile stage. Some of the advantages of interpreted languages include: easier implementation bearing in mind compilers are hard to write, no need for a compilation stage which can increase speed, and interpretation can be more efficient when using dynamically typed languages. It's important to note a language itself is neither compiled or interpreted, it's the implementation of the language that is compiled or interpreted. Taking Java as an example, there is the byte-code based platform (JVM), a native compiler (gcj), and an interpreter for a superset of Java, (bsh).
+- [ ] The differences between a dynamically and statically typed language.
+
 - [ ] How most languages run today
 - [ ] How Java code will run on your machine
 
